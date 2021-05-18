@@ -1,6 +1,6 @@
 
 NODE_VERSION := 14.17.0
-REPO := docker.pkg.github.com/lean-mu/mu/node
+REPO := orefalo/mu/node
 
 build:
 	docker build --build-arg VERSION=$(NODE_VERSION) -t $(REPO):$(NODE_VERSION) -t $(REPO):latest .

@@ -1,4 +1,4 @@
-REPO := docker.pkg.github.com/lean-mu/mu/go
+REPO := orefalo/mu/go
 
 build:
 	docker build -t $(REPO):latest .
