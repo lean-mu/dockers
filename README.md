@@ -1,6 +1,4 @@
-# Project Fn²
-
-Project Fn² is an attempt to revive Project Fn with the focus is to get an easy to deploy, fully functional stack on K8S.
+# Project Mu
 
 This project holds all the docker images used within the context of Project Fn², namely:
 
