@@ -1,4 +1,4 @@
-REPO := orefalo/mu/go
+REPO := leanmu/mu/go
 
 build:
 	docker build -t $(REPO):latest .

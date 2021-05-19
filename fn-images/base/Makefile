@@ -1,4 +1,4 @@
-REPO := orefalo/mu/base
+REPO := leanmu/mu/base
 
 build:
 	docker build -t $(REPO):latest .
