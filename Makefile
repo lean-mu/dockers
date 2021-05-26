@@ -1,6 +1,6 @@
 TOPTARGETS := all build push
 
-SUBDIRS := $(wildcard fn-images/*/.)
+SUBDIRS := $(wildcard fn-images/*/.) $(wildcard mu/*/.)
 
 $(TOPTARGETS): $(SUBDIRS)
 $(SUBDIRS):
