@@ -1,3 +1,8 @@
-all:
-	docker build -t registry.gitlab.com/snapcoreinc/snapcore-nats:latest .
-	docker push registry.gitlab.com/snapcoreinc/snapcore-nats:latest
+BRANCH := master
+REPO := leanmu/nats
+
+build:
+	docker build --build-arg BRANCH=$(BRANCH) -t $(REPO):latest .
+
+push:
+	docker push $(REPO):latest
