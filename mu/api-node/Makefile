@@ -1,6 +1,6 @@
 
 BRANCH := master
-REPO := leanmu/mu/apinode
+REPO := leanmu//apinode
 VERSION := 1.0
 
 build:

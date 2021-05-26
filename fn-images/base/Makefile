@@ -1,4 +1,4 @@
-REPO := leanmu/mu/base
+REPO := leanmu//base
 
 build:
 	docker build -t $(REPO):latest .
