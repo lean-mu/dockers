@@ -1,6 +1,6 @@
 
 JAVA_VERSION := 1.8
-REPO := leanmu//java
+REPO := leanmu/java
 
 build:
 	docker build --build-arg VERSION=$(JAVA_VERSION) -t $(REPO):$(JAVA_VERSION) -t $(REPO):latest .

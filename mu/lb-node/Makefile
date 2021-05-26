@@ -1,6 +1,6 @@
 
 BRANCH := master
-REPO := leanmu//lbnode
+REPO := leanmu/lbnode
 VERSION := 1.0
 
 build:

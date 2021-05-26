@@ -1,6 +1,6 @@
 
 BRANCH := master
-REPO := leanmu//runnernode
+REPO := leanmu/runnernode
 VERSION := 1.0
 
 build:
