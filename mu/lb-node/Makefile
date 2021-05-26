@@ -1,10 +1,11 @@
 
 BRANCH := master
 REPO := leanmu/mu/lbnode
+VERSION := 1.0
 
 build:
-	docker build --build-arg VERSION=$(NODE_VERSION) -t $(REPO):$(NODE_VERSION) -t $(REPO):latest .
+	docker build --build-arg BRANCH=$(BRANCH) -t $(REPO):$(VERSION)  -t $(REPO):latest .
 
 push:
 	docker push $(REPO):latest
-	docker push $(REPO):$(NODE_VERSION)
+	docker push $(REPO):$(VERSION)
