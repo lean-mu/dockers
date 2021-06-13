@@ -3,6 +3,8 @@ BRANCH := master
 REPO := leanmu/runnernode
 VERSION := 1.0
 
+.PHONY: build build-nocache push
+
 build:
 	docker build --build-arg BRANCH=$(BRANCH) -t $(REPO):$(VERSION)  -t $(REPO):latest .
 

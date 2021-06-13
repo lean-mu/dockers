@@ -1,5 +1,7 @@
 REPO := leanmu/base
 
+.PHONY: build push
+
 build:
 	docker build -t $(REPO):latest .
 
