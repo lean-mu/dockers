@@ -1,14 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_PROMDS",
-      "label": "PromDS",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
   "__requires": [
     {
       "type": "grafana",
@@ -59,7 +49,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "${DS_PROMDS}",
+          "datasource": "Prometheus",
           "fill": 1,
           "id": 46,
           "legend": {
@@ -150,7 +140,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMDS}",
+        "datasource": "Prometheus",
         "hide": 0,
         "includeAll": false,
         "label": "Choose docker metrics to display",
