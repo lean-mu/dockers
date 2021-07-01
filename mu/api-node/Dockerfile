@@ -2,7 +2,7 @@
 FROM golang:1.16-alpine AS build-env
 RUN apk --no-cache add build-base git gcc
 ENV BRANCH=master
-ENV SOURCES=/go/src/github.com/fnproject/fn
+ENV SOURCES=/go/src/github.com/lean-mu/mu
 
 # TODO: compile statically, compose from scratch image
 # ENV GO111MODULE=on

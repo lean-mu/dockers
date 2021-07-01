@@ -1,4 +1,4 @@
-TOPTARGETS := all build push
+TOPTARGETS := all build build-nocache push
 
 SUBDIRS := $(wildcard */.)
 
