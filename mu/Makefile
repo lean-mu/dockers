@@ -1,6 +1,6 @@
 TOPTARGETS := all build push
 
-SUBDIRS := $(wildcard fn-images/*/.) $(wildcard mu/.) "tooling-images/nats/." "tooling-images/grafana/.
+SUBDIRS := $(wildcard */.)
 
 $(TOPTARGETS): $(SUBDIRS)
 $(SUBDIRS):
